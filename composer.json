@@ -1,0 +1,24 @@
+{
+  "name": "gietos/yii2-dadata",
+  "description": "A Yii2 client for Dadata (https://dadata.ru/)",
+  "type": "yii2-extension",
+  "keywords": ["dadata", "api", "yii2"],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Kasatkin",
+      "email": "spam@onsky.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "gietos/dadata": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "gietos\\yii\\": "/"
+    }
+  }
+}
