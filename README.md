@@ -36,8 +36,10 @@ Example usage:
 
 ``` php
 use gietos\yii\Dadata\Client;
+
 /** @var Client $client */
 $client = \Yii::$app->dadata;
+
 $address = $client->cleanAddress('msk, tverskaya, 1');
 echo 'Result: ' . $address->result . PHP_EOL;
 ```
