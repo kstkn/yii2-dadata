@@ -43,3 +43,5 @@ $client = \Yii::$app->dadata;
 $address = $client->cleanAddress('msk, tverskaya, 1');
 echo 'Result: ' . $address->result . PHP_EOL;
 ```
+
+[More documentation](https://github.com/gietos/dadata/blob/master/README.md)
