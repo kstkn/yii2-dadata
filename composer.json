@@ -13,8 +13,8 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "yiisoft/yii2": ">=2.0.0",
-    "gietos/dadata": "*"
+    "yiisoft/yii2": "2.*",
+    "gietos/dadata": "1.*"
   },
   "autoload": {
     "psr-4": {
